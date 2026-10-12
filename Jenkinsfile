@@ -10,7 +10,7 @@ pipeline {
   }
 
   environment {
-    IMAGE    = 'Isuru Madusara/tasks-app'
+    IMAGE    = 'isurumadusara/tasks-app'
     EC2_HOST = credentials('ec2-host')
   }
 
